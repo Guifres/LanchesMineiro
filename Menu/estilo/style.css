@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+:root {
+    --cor1:#F0C729;
+    --cor2:#D6F029;
+    --cor3:#F0E02A;
+    --cor4:#F0AF29;
+    --cor5:#83F029;
+    --cor6:#F0E679; 
+
+    --fonte-header:"Lobster", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    padding: 20px;
+
+}
+
+header h1 {
+    font-family: var(--fonte-header);
+    text-align: center;
+    color: rgba(0, 0, 0, 0.685);
+    
+}
+
+header p {
+    font-family: var(--fonte-header);
+    text-align: center;
+}
+
+nav {
+    background-color: #F0E02A;
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    
+}
+
+nav a:hover {
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+}
+
+main {
+    background-color: var(--cor4);
+}
+
+div {
+    background-color: #F0E679;
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+#lanche1 > img {
+    padding-left: 45px;
+}
+
+#lanche1 {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#lanche2 {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 2px;
+    
+    
+}
+
+#lanche3 {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-top: 2px;
+}
+
+#lanche1 > h1 {
+    text-align: center;
+    font-family: var(--fonte-header);
+
+}
+
+#lanche1 > ol {
+    list-style-position: inside;
+    list-style-type: none;
+    columns: 3;
+    font-family: var(--fonte-header);
+    font-size: 0.9em;
+    font-weight: bold;
+    font-style: italic;
+    list-style-position: center;
+    padding: 15px;
+    margin: 0px 10px 0px 10px ;
+}
+
