@@ -20,10 +20,15 @@
     padding: 0px;
 }
 
+body {
+    background-color: var(--cor4);
+}
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
     padding: 20px;
+
 
 }
 
@@ -58,6 +63,10 @@ nav a:hover {
 
 main {
     background-color: var(--cor4);
+    min-width: 300px;
+    max-width: 450px;
+    margin:auto;
+
 }
 
 div {
@@ -66,13 +75,14 @@ div {
     padding-bottom: 20px;
 }
 
-#lanche1 > img {
-    padding-left: 45px;
+#img {
+    text-align: center;
+    padding: 0px;
 }
 
 #lanche1 {
-    width: 300px;
-    height: 300px;
+    min-width: 300px;
+    max-height: 300px;
     margin-bottom: 5px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.74);
     border-radius: 10px 10px 10px 10px;
@@ -97,18 +107,15 @@ div {
 #lanche1 > h1 {
     text-align: center;
     font-family: var(--fonte-header);
+    font-size: 3em;
 
 }
 
-#lanche1 > ol {
-    list-style-position: inside;
-    list-style-type: none;
-    columns: 3;
+#lanche1 > p {
     font-family: var(--fonte-header);
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
     font-style: italic;
-    list-style-position: center;
     padding: 15px;
     margin: 0px 10px 0px 10px ;
 }
